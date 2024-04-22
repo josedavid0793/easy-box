@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<div class="div-login">
+  <form>
+    <div class="tittle-form">
+      <span class="span-title-form"
+        >Ingresa tu usuario y contraseña para acceder a tu casillero</span
+      >
+    </div>
+    <div class="div-input">
+      <label for="documento" class="label-input">Usuario * :</label>
+      <input type="text" class="input-medio" />
+    </div>
+    <div class="div-input">
+      <label for="contraseña" class="label-input">Contraseña * :</label>
+      <input type="password" class="input-medio" />
+    </div>
+    <div>
+      <button class="red" type="button">
+        <i class="icon ion-md-lock"></i> Acceder
+      </button>
+    </div>
+    <div class="registrado">
+      <a [routerLink]="['/register']">¿Registrate?</a>
+    </div>
+  </form>
+</div>
+<app-footer></app-footer>

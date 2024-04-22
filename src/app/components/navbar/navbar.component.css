@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  inline-size: 100%;
+  background: aquamarine;
+}
+.navbar {
+  background: transparent;
+}
+.div-navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 6.25rem;
+}
+img {
+  inline-size: 3.125rem;
+  block-size: 3.125rem;
+}
+li {
+  list-style: none;
+  margin-inline-start: 0.813rem;
+}
+ul {
+  display: flex;
+  margin-inline-start: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.a-li {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: bold;
+  background: transparent;
+  padding: 10px;
+}
+.a-li:hover{
+    background: #fff;
+}
+.a-comprar {
+  background: #000;
+  cursor: pointer;
+  border: none;
+  padding: 13px 19px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.a-como::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: -1;
+  inline-size: 100%;
+  block-size: 100%;
+  background: linear-gradient(
+    45deg,
+    red,
+    blue,
+    deeppink,
+    blue,
+    red,
+    blue,
+    deeppink,
+    blue
+  );
+  background-size: 1000%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 600% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.div-a-comprar {
+  margin-inline-start: 150px;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  inline-size: 20%;
+}
+.div-nav{
+    inline-size: 75%
+}

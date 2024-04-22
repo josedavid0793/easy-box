@@ -1,0 +1,58 @@
+.loader {
+  background: white;
+  inline-size: 100%;
+  block-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+
+  animation: loader 2s linear forwards;
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.loader div {
+  background: #808080;
+  inline-size: 20%;
+  block-size: 20%;
+  border-radius: 50%;
+  margin: 0.625rem;
+  transform: scale(0);
+
+  animation: scaling 2s ease-in-out infinite;
+}
+.loader div :nth-child(1) {
+  animation-delay: 0.2s;
+}
+.loader div :nth-child(2) {
+  animation-delay: 0.4s;
+}
+.loader div :nth-child(3) {
+  animation-delay: 0.6s;
+}
+@keyframes scaling {
+  0%,
+  100% {
+    transform: scale(0.2);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
