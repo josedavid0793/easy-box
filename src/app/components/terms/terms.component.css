@@ -1,0 +1,44 @@
+.div-title-terms {
+  inline-size: 50%;
+  padding: 0;
+}
+.p-title-terms {
+  margin-inline-start: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.p-subtitle-1 {
+  margin-inline-start: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: blue;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.p-subtitle-2 {
+  margin-inline-start: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: blue;
+  letter-spacing: 0.5px;
+}
+.p-text-subtitle {
+  margin-inline-start: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.p-text-subtitle-2{
+    margin-inline-start: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.div-text-full {
+  inline-size: 75%;
+  padding: 0;
+}

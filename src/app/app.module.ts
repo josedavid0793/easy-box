@@ -14,6 +14,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { LoginComponent } from './components/login/login.component';
 import { PointsComponent } from './components/points/points.component';
+import { TermsComponent } from './components/terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PointsComponent } from './components/points/points.component';
     ErrorComponent,
     LoaderComponent,
     LoginComponent,
-    PointsComponent
+    PointsComponent,
+    TermsComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { LoginComponent } from './components/login/login.component';
 import { PointsComponent } from './components/points/points.component';
+import { TermsComponent } from './components/terms/terms.component';
 
 
 //definir rutas
@@ -21,6 +22,7 @@ const routes: Routes = [
            {path: 'register', component: RegisterComponent},
            {path: 'login', component: LoginComponent},
            {path: 'puntos', component: PointsComponent},
+           {path: 'terminos', component: TermsComponent},
            {path: '**', component: ErrorComponent},
 
 ];onent:HomeComponent
